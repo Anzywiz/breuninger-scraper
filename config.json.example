@@ -1,0 +1,30 @@
+{
+  "output_dir": "output",
+  "logs_dir": "logs",
+  "site_url": "https://www.breuninger.com",
+  "phase1_brands_file": "output/brands.json",
+  "phase1_delay": 2.0,
+  "phase2_products_csv": "output/products.csv",
+  "phase2_progress_file": "output/phase2_progress.json",
+  "phase2_delay": 3,
+  "phase2_page_size": 96,
+  "phase2_max_retries": 5,
+  "phase2_retry_delay": 5,
+  "phase2_workers": 3,
+  "phase3_products_csv": "output/products.csv",
+  "phase3_enriched_csv": "output/products_enriched.csv",
+  "phase3_progress_file": "output/phase3_progress.json",
+  "phase3_delay": 2,
+  "phase3_max_retries": 4,
+  "phase3_workers": 3,
+  "phase4_output_txt": "output/data_file.txt",
+  "fixed_values": {
+    "dbq_prd_type": "E0005r",
+    "website_name": "Breuninger.com",
+    "country_code": "DEU",
+    "currency_code": "EUR",
+    "store_url": "https://www.breuninger.com",
+    "contract_id": "CONTRACT_ID",
+    "seller_id": "SELLER_ID"
+  }
+}
